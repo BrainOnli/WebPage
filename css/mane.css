@@ -38,7 +38,7 @@ li {
 .offer {
     display: flex;
     justify-content: center;
-    background-color: #58EE82;
+    background: rgba(88, 238, 130, 29%);
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 4%;
