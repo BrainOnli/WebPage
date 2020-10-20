@@ -2,13 +2,8 @@
 body {
     background-color: #CBFDDC;
 }
-.first-window {
-    position: relative;
-    background-color: #CBFDDC;
-    max-width: 1080;
-    max-height: 1920;
-}
-.navbar-logo {
+/* start header */
+header {
     margin-left: 250px;
     margin-top: 22px;
 }
