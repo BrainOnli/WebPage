@@ -7,17 +7,36 @@ header {
     position: relative;
     height: 80px;
 }
-header p {
+li.lg {
     display: block;
+    position: fixed;
     margin-left: 250px;
     margin-top: 22px;
     font-family: Poppins;
     font-size: 24px;
 }
+a {
+    color:black !important;
+    text-decoration: none !important;
+}
+ul.hr{
+    margin:0;
+    padding: 4px;
+    margin-left: 687px;
+    margin-top: 0;
+}
 
-li {
-    list-style: none;
+ul.hr li {
     display: inline-block;
-    color:black;
+    margin-right: 170px;
+    padding: 3px;
+    font-family: Poppins;
+    padding-top: 28px;
+}
+/* macbook */
+.macbook {
     position: relative;
+    float: right;
+    width: 717px;
+    height: 970px;
 }
