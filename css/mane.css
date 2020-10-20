@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    background-color: #CBFDDC;
+}
+.first-window {
+    position: relative;
+    background-color: #CBFDDC;
+    max-width: 1080;
+    max-height: 1920;
+}
+.navbar-logo {
+    margin-left: 250px;
+    margin-top: 22px;
+}
