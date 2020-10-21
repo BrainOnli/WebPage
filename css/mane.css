@@ -86,3 +86,63 @@ li {
     height: 150px;
     width: 150px;
 }
+/*third window*/
+#pig img{
+    height: 130px;
+    width: 130px;
+}
+#flash img{
+    height: 140px;
+    width: 90px;
+}
+#look img {
+    height: 130px;
+    width: 130px;
+}
+.third-window{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Poppins;
+    padding-top: 3%;
+    background: linear-gradient(#CBFDDC 5%,rgba(88, 238, 130, 40%) 20%, rgba(88, 238, 130, 81%) 92%, #CBFDDC 99%);
+}
+#reason{
+    font-weight: 1000;
+    font-size: 25pt;
+}
+.rozmiar{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+.affordable{
+    display: flex;
+    justify-content: space-between;
+}
+.quickness{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.fresh{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#zagolov3{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 18pt;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+#poyasn3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14pt;
+    color: #708064;
+    font-family: Poppins;
+}
