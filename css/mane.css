@@ -156,3 +156,54 @@ li {
     color: #708064;
     font-family: Poppins;
 }
+/*Fourth window*/
+.fourth-window{
+    display: flex;
+    justify-content: space-evenly;
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 5%;
+}
+.m{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    border-radius: 5%;
+}
+.l{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    border-radius: 5%;
+}
+#table{
+    display: flex;
+    flex-direction: column;
+}
+#buy{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#opis{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    border-radius:2%;
+}
