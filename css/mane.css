@@ -195,3 +195,24 @@ ul.hr li {
     color: #708064;
     font-family: Poppins;
 }
+/* footer */
+ul.ft {
+    margin:0;
+    /* padding: 4px; */
+    margin-left: 250px;
+    margin-top: 0;
+}
+ul.ft li {
+    display: inline-block;
+    margin-right: 400px;
+    padding: 3px;
+    font-family: Poppins;
+    /* padding-top: 28px; */
+}
+.mail {
+    display: inline;
+    margin-left: 1420px;
+    font-family: Poppins;
+    font-size: 18px;
+    text-decoration: none;
+}
