@@ -3,25 +3,64 @@ body {
     background-color: #CBFDDC;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 /* start header */
 header {
     position: relative;
     height: 80px;
 }
-header p {
+li.lg {
     display: block;
+    position: fixed;
     margin-left: 250px;
     margin-top: 22px;
     font-family: Poppins;
     font-size: 24px;
 }
+a {
+    color:black !important;
+    text-decoration: none !important;
+}
+ul.hr{
+    margin:0;
+    padding: 4px;
+    margin-left: 687px;
+    margin-top: 0;
+}
 
-li {
-    list-style: none;
+ul.hr li {
     display: inline-block;
-    color:black;
+    margin-right: 170px;
+    padding: 3px;
+    font-family: Poppins;
+    padding-top: 28px;
+}
+/* macbook */
+.book {
     position: relative;
+    float: right;
+     /* width: 800px;
+    height: 800px; */
+    padding-top: -24px;
+}
+/* YouPers */
+.texto {
+    position: relative;
+    font-family: Poppins;
+    margin-left: 161px;
+    margin-top: 250px;
+    font-size: 72px;
+}
+.textp {
+    position: relative;
+    margin-left: 161px;
+    margin-top: 32px;
+    font-size: 30px;
+    font-family: Poppins;
+    color: rgb(138, 173, 110, 58%)
+    
 }
 /* start window second */
 .second-window {
