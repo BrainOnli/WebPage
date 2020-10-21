@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 body {
     background-color: #CBFDDC;
     margin: 0;
@@ -80,7 +81,7 @@ ul.hr li {
     background: rgba(88, 238, 130, 29%);
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 4%;
+    border-radius: 30px;
 }
 .website{
     display: flex;
@@ -197,52 +198,118 @@ ul.hr li {
 }
 /*Fourth window*/
 .fourth-window{
+    padding-top: 10%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+#service{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+#poyasn4{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15pt;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    font-weight: bold;
+}
+.Oferta{
+    display: flex;
+    justify-content: space-around;
 }
 .s{
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-width: 2px;
-    border-color: red;
-    border-radius: 5%;
+    border-width: 3px;
+    border-color: pink;
+    border-radius: 20px;
+    align-self: flex-end;
+    width: 300px;
+    background-color: white;
 }
 .m{
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: yellow;
-    border-radius: 5%;
+    border-radius: 20px;
+    align-self: flex-end;
+    width: 300px;
+    background-color: white;
 }
 .l{
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: green;
-    border-radius: 5%;
+    border-radius: 20px;
+    align-self: flex-end;
+    width: 300px;
+    background-color: white;
 }
 #table{
     display: flex;
     flex-direction: column;
+    padding-left: 5%;
+    font-size: 12pt;
+    font-family: Play;
+    border-top-style:solid;
+    border-width:1px;
+    border-color:gray;
+    padding-bottom: 6%;
+}
+dt{
+    margin-top: 6%;
 }
 #buy{
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-size: 34pt;
+    font-family: Play;
+    border-top-style:solid;
+    padding-top: 3%;
+    border-width:1px;
+    border-color:gray;
 }
 #opis{
+    padding-bottom: 10%;
+    padding-top: 5%;
+    font-size: 9pt;
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: Poppins;
+    color: #708064;
 }
 .button{
-    width: 50%;
     display: flex;
+    height: 50px;
     justify-content: center;
     background: black;
     color: white;
-    border-radius:2%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius:30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    vertical-align: middle;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+#order{
+    align-self:center;
+    font-size: 17pt;
+    font-family: Poppins;
+}
+.bykva{
+    font-size: 40pt;
+    font-weight: bolder;
+    color: black;
 }
