@@ -77,7 +77,7 @@ ul.hr li {
 }
 .offer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background: rgba(88, 238, 130, 29%);
     padding-top: 20px;
     padding-bottom: 20px;
