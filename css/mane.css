@@ -203,6 +203,7 @@ ul.hr li {
     flex-direction: column;
     background: url(pyl.png);
 }
+
 #service{
     text-align: center;
     font-family: Poppins;
@@ -267,6 +268,7 @@ ul.hr li {
 }
 dt{
     margin-top: 6%;
+    display: flex;
 }
 #buy{
     text-align: center;
@@ -313,6 +315,10 @@ dt{
     font-size: 40pt;
     font-weight: bolder;
     color: black;
+}
+dt img{
+    height: 20px;
+    padding-right: 5px;
 }
 /* footer */
 ul.ft {
