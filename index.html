@@ -11,10 +11,10 @@
             <header>
                 <li class="lg">logo</li>
                 <ul class="hr">
-                <li><a href="#">What we can offer</a></li>
+                <li><a href="#offer">What we can offer</a></li>
                 <li><a href="#">Contacts</a></li>
-                <li><a href="#">Why our team</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#team">Why our team</a></li>
+                <li><a href="#services">Services</a></li>
             </ul>
             </header>
             <div class="img-book">
@@ -24,7 +24,7 @@
             <h4 class="textp">Web services that will Change Your Life</h4>
     </div>
     <div class="second-window"> 
-        <div class= "what-can">What can we offer?</div>
+        <div class= "what-can"><a id="offer">What can we offer?</a></div>
         <div class="offer">
             <div class="website">
                 <div id="zagolov">
@@ -60,6 +60,7 @@
                 </div>
             </div>
         </div>
+        <p><a id="team"></a></p>
     </div>
     <div class="third-window">
         <div id="reason">Reasons to choose us</div>
@@ -116,7 +117,7 @@
     </div>
     <div class="fourth-window">
         <div class="pyl"></div>
-        <div id="service">Service packages</div>
+        <div id="service"><a id="services">Service packages</a></div>
         <div id="poyasn4"> Packages that will suit everyone</div>
     <div class="Oferta"> 
         <div class="s">
@@ -132,8 +133,12 @@
             </div>
             <div id="buy">
                 50 $
-                <a href=""><div class="button"><div id="order">Order</div></div>
-            </a></div>
+                <a href="#" class="open-modal" data-modal="1">
+                    <div class="button">
+                    <div id="order">Order</div>
+                </div>
+            </a>
+        </div>
         </div>
         <div class="m">
             <div id="opis">
@@ -151,8 +156,12 @@
             </div>
             <div id="buy">
                 100 $
-                <a href=""><div class="button"><div id="order">Order</div></div>
-            </a></div>
+                <a href="#" class="open-modal" data-modal="1">
+                    <div class="button" >
+                        <div id="order">Order</div>
+                    </div>
+                </a>
+            </div>
         </div>
         <div class="l">
             <div id="opis">
@@ -171,18 +180,27 @@
             </div>
             <div id="buy">
                 200 $
-                <a href=""><div class="button"><div id="order">Order</div></div>         
-            </a></div>
+                <a href="" class="open-modal" data-modal="1">
+                    <div class="button">
+                        <div id="order">Order</div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
     </div>
     <footer>
         <ul class="ft">
-            <li>Services package</li>
-            <li>What can we offer</li>
+            <li><a href="#services">Services package</a></li>
+            <li><a href="#offer">What can we offer</a></li>
             <li>Contact us</li>
         </ul>
         <p class="mail">e-mail</p>
     </footer>
+
+   <div class="modal" data-modal="1">
+       azazazaazaazazzazazazzaazazazazzazazazaz
+   </div>
+   <script src="/js/mane.js"></script>
 </body>
 </html>
