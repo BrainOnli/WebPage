@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logo</title>
     <link rel="stylesheet" href="/css/mane.css">
+    <link rel="icon" href="/img/fav-icon.png" type="image/x-icon">
 </head>
 <body>
     <div class="first-window">
             <header>
-                <li class="lg">Logo</li>
+                <li class="lg">WebMasters</li>
                 <ul class="hr">
                 <li><a href="#offer">What we can offer</a></li>
                 <li><a href="#">Contacts</a></li>
@@ -133,10 +134,8 @@
             </div>
             <div id="buy">
                 50 $
-                <a href="#" class="open-modal" data-modal="1">
-                    <div class="button">
-                    <div id="order">Order</div>
-                </div>
+                <a  class="open-modal" data-modal="1">
+                    <input type="button" value="order" id="popup__toggle">
             </a>
         </div>
         </div>
@@ -156,10 +155,8 @@
             </div>
             <div id="buy">
                 100 $
-                <a href="#" class="open-modal" data-modal="1">
-                    <div class="button" >
-                        <div id="order">Order</div>
-                    </div>
+                <a  class="open-modal" data-modal="1">
+                    <input type="button" value="order" id="popup__toggle">
                 </a>
             </div>
         </div>
@@ -180,10 +177,41 @@
             </div>
             <div id="buy">
                 200 $
-                <a href="" class="open-modal" data-modal="1">
-                    <div class="button">
-                        <div id="order">Order</div>
+                <a class="open-modal" data-modal="1">
+                    <input type="button" value="order" id="popup__toggle">
+                    <div class="popup__overlay">
+                        <div class="popup">
+                            <div class="popup__close">X</div>
+                            <div class="form-wrap">
+                                <div class="profile"><img src="/img/people.png" width="118px" height="118px">
+                                  <h1>Choose us you application</h1>
+                                </div>
+                                <form method="post" action="form.php">
+                                  <div>
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" required>
+                                  </div>
+                                  <div>
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" required>
+                                  </div>
+                                  <div>
+                                    <label for="country">Packages</label>
+                                    <select name="country">
+                                      <option>Choose your package</option>
+                                      <option value="S">S</option> 
+                                      <option value="M">M</option> 
+                                      <option value="L">L</option> 
+                                    </select>
+                                  </div> 
+                                  <button type="submit">Send</button> 
+                                </form> 
+                              </div>
+                        </div>
                     </div>
+                    <!-- <div class="button">
+                        <div id="order">Order</div>
+                    </div> -->
                 </a>
             </div>
         </div>
@@ -198,9 +226,8 @@
         <p class="mail">e-mail</p>
     </footer>
 
-   <div class="modal" data-modal="1">
-       gigi
-   </div>
-   <script src="/js/mane.js"></script>
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+   <script src="/mane.js"></script>
+
 </body>
 </html>
