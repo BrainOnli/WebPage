@@ -6,7 +6,7 @@ document.addEventListener('DOMContectLoaded', function() {
     e.preventDefault();
 
     var modalId = this.getAttribute('data-modal'),
-        modalElem = document.querySelector('.modal[data-modal="' + modalId + '"]');
+        modalElem = document.querySelector('.modal');
     
         modalElem.classList.add('active');
         });
