@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 body {
     background-color: #CBFDDC;
@@ -22,7 +23,7 @@ li.lg {
     position: fixed;
     margin-left: 250px;
     margin-top: 22px;
-    font-family: Poppins;
+    font-family: 'Roboto';
     font-size: 24px;
 }
 a {
@@ -307,21 +308,28 @@ dt img{
 }
 /* footer */
 ul.ft {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
     margin:0;
     padding: 24px;
-    margin-left: 250px;
+    margin-left: 200px;
+    margin-right: 210px; 
     margin-top: 0;
 }
 ul.ft li {
     display: inline-block;
-    margin-right: 400px;
-    padding: 3px;
+    position: relative;
+    /* margin-right: 400px;
+    padding: 3px; */
+    
     font-family: Poppins;
     /* padding-top: 28px; */
 }
 .mail {
-    display: inline;
-    margin-left: 1420px;
+    /* display: inline; */
+    position: relative;
+    text-align: center;
     font-family: Poppins;
     font-size: 18px;
     text-decoration: none;
