@@ -3,6 +3,14 @@ $(window).ready(function(){
     $('#popup__toggle').click(function() {
         p.css('display', 'block');
     });
+    p = $('.popup__overlay');
+    $('#popup__toggle2').click(function() {
+        p.css('display', 'block');
+    });
+    p = $('.popup__overlay');
+    $('#popup__toggle3').click(function() {
+        p.css('display', 'block');
+    });
     p.click(function(event) {
         e = event || window.event;
         if (e.target == this) {

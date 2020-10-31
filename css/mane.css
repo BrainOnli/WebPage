@@ -296,26 +296,6 @@ dt{
     font-family: Poppins;
     color: #708064;
 }
-.button{
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    background: black;
-    color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-radius:30px;
-    margin-left: 20%;
-    margin-right: 20%;
-    vertical-align: middle;
-    margin-bottom: 5%;
-    margin-top: 3%;
-}
-#order{
-    align-self:center;
-    font-size: 17pt;
-    font-family: Poppins;
-}
 .bykva{
     font-size: 40pt;
     font-weight: bolder;
@@ -363,23 +343,14 @@ ul.ft li {
     }
     .popup__overlay:after {
         display: inline-block;
-        *display: inline;
-        *zoom: 1;
         height: 100%;
         width: 0;
         vertical-align: middle;
         content: ''
         }
 /* ADDED FOR IE<9 COMPATIBILITY */
-.popup__overlay_ie {
-        background: #000;
-        opacity: .7;
-        filter: alpha(opacity=70)
-        }
 .popup {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
     position: relative;
     max-width: 80%;
     padding: 20px;
@@ -389,22 +360,14 @@ ul.ft li {
     vertical-align: middle
     }
 /* ADDED INSTEAD OF :AFTER PSEUDOELEMENT */
-.popup__valignfix {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
-    width: 0;
-    height: 100%;
-    vertical-align: middle
-    }
-input[value="order"]{
+input[value="Order"]{
     align-self:center;
-    font-size: 17pt;
+    font-size: 20pt;
     font-family: Poppins;
     
     }
 input[type="button"] {
-    
+    width: 150px;
     height: 50px;
     justify-content: center;
     background: black;
@@ -417,12 +380,7 @@ input[type="button"] {
     vertical-align: middle;
     margin-bottom: 5%;
     margin-top: 3%;
-    /* padding: 6px 16px;
-    border: 0;
-    border-radius: 2px;
     cursor: pointer;
-    background: black;
-    color: #fff */
     }
 .popup__close {
     display: block;
@@ -456,7 +414,6 @@ input[type="button"] {
       }
       .form-wrap *{transition: .1s linear}
       .profile {
-
         float: center;
         text-align: center;
         padding: 30px;
@@ -493,7 +450,7 @@ input[type="button"] {
         left: 50%;
         transform: translateX(-50%);
       }
-      label, span {
+      label{
         display: block;
         font-size: 14px;
         margin-bottom: 8px;
@@ -508,45 +465,6 @@ input[type="button"] {
       }
       input[type="text"]:focus, input[type="email"]:focus {
         box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
-      }
-      .radio label {
-        position: relative;
-        padding-left: 50px;
-        cursor: pointer;
-        width: 50%;
-        float: left;
-        line-height: 40px;
-      }
-      .radio input {
-        position: absolute;
-        opacity: 0;
-      }
-      .radio-control {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 40px;
-        width: 40px;
-        background: #e6e6e6;
-        border-radius: 50%;
-        text-align: center;
-      }
-      .male:before {
-        content: "\f222";
-        font-family: FontAwesome;
-        font-weight: bold;
-      }
-      .female:before {
-        content: "\f221";
-        font-family: FontAwesome;
-        font-weight: bold;
-      }
-      .radio label:hover input ~ .radio-control,
-      .radiol input:focus ~ .radio-control {
-        box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
-      }
-      .radio input:checked ~ .radio-control {
-        color: red;
       }
       select {
         width: 100%;
@@ -574,6 +492,7 @@ input[type="button"] {
         font-size: 14px;
         outline: none;
         text-transform: uppercase;
+        cursor: pointer;
       }
       @media (max-width: 600px) {
         body {display: block}
